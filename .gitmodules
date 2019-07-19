@@ -1,0 +1,6 @@
+[submodule "luigi-exercise-template"]
+	path = luigi-exercise-template
+	url = https://github.com/iamaaronknight/luigi-exercise-template.git
+[submodule "luigi-hello-world"]
+	path = luigi-hello-world
+	url = https://github.com/iamaaronknight/luigi-hello-world.git

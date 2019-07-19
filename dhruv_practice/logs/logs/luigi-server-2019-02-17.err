@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/usr/local/lib/python2.7/site-packages/luigi/cmdline.py", line 35, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/usr/local/lib/python2.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/usr/local/lib/python2.7/site-packages/luigi/server.py", line 323, in run
+    unix_socket=unix_socket,
+  File "/usr/local/lib/python2.7/site-packages/luigi/server.py", line 301, in _init_api
+    api_sockets = tornado.netutil.bind_sockets(api_port, address=address)
+  File "/usr/local/lib/python2.7/site-packages/tornado/netutil.py", line 197, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 48] Address already in use

@@ -1,0 +1,1 @@
+2019-02-17 08:32:23,323 luigi.scheduler[64092] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
